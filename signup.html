@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <title>signup form</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    </head>
+<body>
+
+<div class="container">
+    <div class="img">
+        <img src="img/profile.svg">
+    </div>
+
+    <div class="signup-container">
+        <form class="form" id="form">
+            <img class="avatar" src="img/picture.png">
+            
+            <h2>Welcome</h2>
+
+            <div class="input-div one">
+                <div class="i">
+                    <i class="fa fa-user"></i>
+                </div>
+               <div>
+                 <h5>Full Name</h5>
+                 <input class="input" type="text" id="fullname">
+               
+                 <small>message error</small>
+              </div>
+           </div>
+
+           <div class="input-div two">
+            <div class="i">
+                <i class="fa fa-envelope"></i>
+               
+            </div>
+            <div>
+              <h5>Email</h5>
+              <input class="input" type="email" id="email">
+              <small>message error</small>
+             
+            </div>
+         </div>
+
+           <div class="input-div three">
+              <div class="i">
+                 <i class="fa fa-lock"></i>
+              </div>
+              <div>
+                <h5>Password</h5>
+                <input class="input" type="password" id="password" name="pwd">
+              <small>message error</small>
+              </div>   
+           </div>
+
+          <div class="input-div four">
+            <div class="i">
+               <i class="fa fa-lock"></i>
+            </div>
+            <div>
+              <h5>Confirm Password</h5>
+              <input class="input" type="password" id="password2" name="pwd2" >
+              <small>message error</small>
+              </div>
+          </div>
+       <button type="signup" class="btn btn-primary btn-md" value="signup" id="signup">signup</button>
+            <!----<input type="submit" class="btn btn-primary btn-md" value="submit" id="submit">-->
+             <p>Already have an account?<a href="index.html">login here</a></p>
+     </form>
+    </div>   
+   
+<script src="js/index2.js"></script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+</html>
